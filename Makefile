@@ -10,7 +10,7 @@ token:
 
 
 publish: token
-	git remote set-url origin git@github.com:tonybutzer/et-optimize.git
+	git remote set-url origin git@github.com:tonybutzer/et-optimized.git
 	git config --global user.email tonybutzer@gmail.com
 	git config --global user.name tonybutzer
 	git config --global push.default simple
