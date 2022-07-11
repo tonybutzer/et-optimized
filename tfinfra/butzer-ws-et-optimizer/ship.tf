@@ -20,7 +20,7 @@ resource "aws_instance" "ship" {
   iam_instance_profile                    =var.iam_role
 
   security_groups = [var.security_group_ssh, ]
-  root_block_device {volume_size = 440}
+  root_block_device {volume_size = 990}
 
   #user_data                   = "file("files/${var.ship_userdata[count.index]}")"
 
